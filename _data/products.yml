@@ -1,8 +1,8 @@
 - kind: Developer
-  repository: https://github.com/cyblue9/In_that_book_mercari
-  img: /img/portfolio/in_that_book_mercari.png
-  title: In that book mercari
-  description: Chrome Extension
+  repository: https://github.com/cyblue9/How_much_this_book_in_Mercari
+  img: /img/portfolio/how_much_this_book_in_mercari.png
+  title: How much this book in Mercari
+  description: Display the price of a book sold in Mercari on Amazon web site
   badge: https://img.shields.io/chrome-web-store/users/mjfkgjokgmfejicpkmnklhfnfpkppaaa.svg?style=social
 
 - kind: Contributor
