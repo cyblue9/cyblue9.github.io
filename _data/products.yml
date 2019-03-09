@@ -1,0 +1,54 @@
+- kind: Developer
+  repository: https://github.com/cyblue9/In_that_book_mercari
+  img: /img/portfolio/in_that_book_mercari.png
+  title: In that book mercari
+  description: Chrome Extension
+  badge: https://img.shields.io/chrome-web-store/users/mjfkgjokgmfejicpkmnklhfnfpkppaaa.svg?style=social
+
+- kind: Contributor
+  repository: https://github.com/digego/extempore
+  img: /img/portfolio//extempore.png
+  title: extempore
+  description: A cyber-physical programming environment
+  badge: https://img.shields.io/github/stars/digego/extempore.svg?style=social
+
+- kind: Developer
+  repository: https://github.com/cyblue9/seti-black-ui
+  img: /img/portfolio/seti-black-ui.png
+  title: seti black ui
+  description: A dark colored UI theme for Atom
+  badge: https://img.shields.io/apm/dm/seti-black-ui.svg?style=social
+
+- kind: Committer
+  repository: https://github.com/extemporelang/extemporelang.github.io
+  img: /img/portfolio/extemporelang-github-io.png
+  title: extemporelang.github.io
+  description: Extempore docs website
+  badge: https://img.shields.io/github/stars/extemporelang/extemporelang.github.io.svg?style=social
+
+- kind: Developer
+  repository: https://github.com/highlightjs/highlightjs-xtlang
+  img: /img/portfolio//highlightjs-xtlang.png
+  title: highlightjs xtlang
+  description: Highlight.js Extempore language repository
+  badge: https://img.shields.io/github/stars/highlightjs/highlightjs-xtlang.svg?style=social
+
+- kind: Committer
+  repository: https://github.com/flxbe/asm-space-invaders
+  img: /img/portfolio/asm-space-invaders.png
+  title: asm space invaders
+  description: A small, bootable clone of Space Invaders written in x86 Assembly
+  badge: https://img.shields.io/github/stars/flxbe/asm-space-invaders.svg?style=social
+
+- kind: Developer
+  repository: https://github.com/cyblue9/github-trending
+  img: /img/portfolio/github-trending.png
+  title: Github Trending
+  description: "Browse Github Trending: A Github Trending command line interface (CLI)"
+  badge: https://img.shields.io/github/stars/cyblue9/github-trending.svg?style=social
+
+
+
+
+
+

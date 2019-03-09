@@ -9,8 +9,8 @@ permalink: /blog/
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h1>Get the latest on what we're doing</h1>
-          <p>Catch up with us, anytime and anywhere</p>
+          <h1>$vim blog</h1>
+          <p>Wie das Gestirn, ohne Hast, aber ohne Rast, drehe sich jeder um die eigne Last.</p>
         </div>
       </div>
     </div>
@@ -18,10 +18,12 @@ permalink: /blog/
 </section>
 {% for post in site.posts %}
 <div class="post-area">
-  <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
-  <p class="post-date">{{ post.date | date_to_long_string }}</p>
-  <p>
-    {{ post.content | strip_html | truncatewords: 50 }}
-  </p>
+  <a href="{{ post.url | prepend: site.baseurl }}">
+    <div class="bold"> {{ post.title }}</div>
+    <p class="post-date">{{ post.date | date_to_long_string }}</p>
+    <p>
+      {{ post.content | strip_html | truncatewords: 50 }}
+    </p>
+  </a>
 </div>
 {% endfor %}

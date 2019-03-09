@@ -1,0 +1,29 @@
+- job: Growth Hacker (Part-time job)
+  company: Recruit Co.,Ltd.
+  location-period: Tokyo, Japan, 7/2018
+  description: Planned for new functions of the Zexy Koimusubi mobile application
+- job: Security Engineer (Internship)
+  company: Recruit Co.,Ltd.
+  location-period: Tokyo, Japan, 2/2018 - 3/2018
+  description: Assessed vulnerability of web application and detected vulnerability before release<br>Developed a security education tool and improved security awareness of developers
+- job: Software Engineer (Internship)
+  company: Yahoo Japan Corporation
+  location-period: Tokyo, Japan, 2/2018
+  description: Developed a new function of the Yahoo Shopping web application and improved UX<br>Led a team of two engineers and a designer
+- job: Trainee
+  company: National Cyber Security Center,<br>National Institute of Information and Communications Technology
+  location-period: Tokyo, Japan, 5/2017 - 3/2018
+  description: Developed of the Raspberry Pi OS and Implemented C standard library
+- job: Software Engineer (Internship)
+  company: Fujitsu Limited
+  location-period: Tokyo, Japan, 9/2016
+  description: Developed of the OpenStack plugin for Fujitsu server and automated cloud environment construction<br>Experienced waterfall development from design document creation to testing
+- job: Software Engineer (Part-time job)
+  company: KGK Corp.
+  location-period: Tokyo, Japan, 8/2016
+  description: Developed of the Image processing program
+
+
+
+
+

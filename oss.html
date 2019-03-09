@@ -1,0 +1,115 @@
+---
+layout: page
+title: OSS
+permalink: /oss/
+---
+
+<!-- Slider Start -->
+<section id="global-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h1>$which products</h1>
+                    <p>I love OSS.<br>Working with programmers who love OSS is passion of my life.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Portfolio Start -->
+<section id="portfolio-work">
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="block">
+              <div class="portfolio-menu">
+                <ul>
+                    <li class="filter" data-filter="all"><div class="all_hover_toggle">Everything</div></li>
+                    <li class="filter" data-filter=".Developer">Developer</li>
+                    <li class="filter" data-filter=".Committer">Committer</li>
+                    <li class="filter" data-filter=".Contributor">Contributor</li>
+                </ul>
+              </div>
+              <div class="portfolio-contant">
+                <ul id="portfolio-contant-active">
+                  {% for product in site.data.products %}
+                    <li class="mix {{ product.kind }}">
+                      <a href="{{ product.repository }}"">
+                        <img src="{{ site.baseurl }}{{ product.img }}">
+                        <div class="overly">
+                          <div class="position-center">
+                            <h2>{{ product.title }}</h2>
+                            <p>{{ product.description }}</p>
+                            <img src="{{ product.badge }}">
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</section>
+
+<script type="text/javascript" src="/js/toggle_all_hover.js"></script>
+
+<!-- Content Start -->
+<section id="testimonial">
+<div class="container">
+<div class="row">
+  <div class="section-title text-center">
+    <h2>Facts About MY OSS</h2>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+    <div class="block">
+      <ul class="counter-box clearfix">
+        <li>
+          <div class="block">
+            <ion-icon name="code" size="large"></ion-icon>
+            <h4 class="counter">17258</h4>
+            <span>Lines of code</span>
+          </div>
+        </li>
+
+      <ul class="counter-box clearfix">
+        <li>
+          <div class="block">
+            <ion-icon name="git-commit" size="large"></ion-icon>
+            <h4 class="counter contributions">270</h4>
+            <span>Contributions</span>
+          </div>
+        </li>
+
+      <ul class="counter-box clearfix">
+        <li>
+          <div class="block">
+            <ion-icon name="git-pull-request" size="large"></ion-icon>
+            <h4 class="counter pullrequests">64</h4>
+            <span>Pull requests and Issues</span>
+          </div>
+        </li>
+
+      <ul class="counter-box clearfix">
+        <li>
+          <div class="block">
+            <ion-icon name="folder" size="large"></ion-icon>
+            <h4 class="counter repositories">21</h4>
+            <span>Repositories</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
+</section>
+
+<script src="https://unpkg.com/ionicons@4.4.4/dist/ionicons.js"></script>
+<script type="text/javascript" src="/js/count_facts.js"></script>

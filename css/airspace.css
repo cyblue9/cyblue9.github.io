@@ -3,7 +3,7 @@
  * In airspace, it is called style.css
  * However, style.css now holds additional styles for this jekyll port. (Not written by ThemeFisher)
  * The original style.css is now called airspace.css
- * 
+ *
  */
 
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,600);
@@ -49,7 +49,7 @@ a:active {
   text-decoration: none !important;
 }
 .section-title {
-  margin-bottom: 70px;
+  margin-bottom: 15px;
 }
 .section-title h2 {
   text-transform: uppercase;
@@ -66,14 +66,19 @@ a:active {
 --*/
 header {
   background: #fff;
-  padding: 20px 0;
+  padding: 5px 0;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 100;
 }
 header .navbar {
   margin-bottom: 0px;
   border: 0px;
 }
 header .navbar-brand {
-  padding-top: 5px;
+  padding-top: 15px;
 }
 header .navbar-default {
   background: none;
@@ -84,7 +89,7 @@ header .navbar-default .navbar-nav {
 }
 header .navbar-default .navbar-nav li a {
   color: #333333;
-  padding: 10px 26px;
+  padding: 5px 26px;
   font-size: 15px;
 }
 font header .navbar-default .navbar-nav li a:hover {
@@ -114,7 +119,7 @@ font header .navbar-default .navbar-nav li a:hover {
   width: 100%;
   height: 100%;
   background: linear-gradient(to left, #8b86a3, #322e40);
-  opacity: 0.8;
+  opacity: 0.66;
 }
 #slider .block {
   color: #E3E3E4;
@@ -150,14 +155,20 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-top: 20px;
 }
 #intro .block img {
-  padding-left: 40px;
-  width: 100%;
+  padding-top: 45px;
+  padding-left: 130px;
+  width: 90%;
 }
 #intro .section-title {
   margin-bottom: 0px;
 }
 #intro .section-title p {
   padding-top: 20px;
+}
+.btn-view-about {
+  background: #655E7A;
+  color: #fff;
+  padding: 10px 20px;
 }
 /*--
 	service Start
@@ -185,6 +196,118 @@ font header .navbar-default .navbar-nav li a:hover {
   font-size: 14px;
   line-height: 1.8;
 }
+/*--
+  career.html change background color
+--*/
+.section-bg {
+  transition: all 1.2s ease;
+}
+/*--
+	Career Start
+--*/
+#career {
+  text-align: center;
+  padding-top: 90px;
+}
+#career .career-item {
+  padding-bottom: 30px;
+}
+#career .career-item i {
+  font-size: 60px;
+  color: #4A4656;
+}
+#career .career-item h2 {
+  font-size: 30px;
+  font-weight: 400;
+}
+#career .career-item h3 {
+  font-size: 26px;
+  font-weight: 390;
+  margin-top: 10px;
+}
+#career .career-item h4 {
+  padding-top: 5px;
+  color: #333;
+  font-weight: 380;
+}
+#career .career-item h5{
+  font-size: 16px;
+  font-weight: 300;
+  color: #666;
+}
+#career .career-item p {
+  color: #888;
+  padding-top: 10px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+/*--
+	Award Start
+--*/
+#award {
+  text-align: center;
+  padding: 90px 0;
+}
+#award .award-item {
+  padding-bottom: 30px;
+}
+#award .award-item i {
+  font-size: 60px;
+  color: #4A4656;
+}
+#award .award-item h4 {
+  padding-top: 20px;
+  margin: 0;
+  color: #666;
+}
+#award .award-item p {
+  color: #888;
+  padding-top: 10px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.8;
+}
+#award a {
+  color: #333333;
+  transition: all 1.2s ease;
+}
+
+/*--
+	Media Start
+--*/
+#media {
+  text-align: center;
+  padding-bottom: 90px;
+}
+#media .media-item {
+  padding-bottom: 30px;
+}
+#media .media-item i {
+  font-size: 60px;
+  color: #4A4656;
+}
+#media .media-item h4 {
+  padding-top: 20px;
+  margin: 0;
+  color: #666;
+}
+#media .media-item p {
+  color: #888;
+  padding-top: 10px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.8;
+}
+#media .date-publisher {
+  color: #666666;
+}
+#media a {
+  color: #333333;
+  transition: all 1.2s ease;
+}
+
 /*--
 	call-to-action Start
 --*/
@@ -231,7 +354,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Feature Start
 --*/
 #feature {
-  background: url("../img/featue-bg.jpg");
+  background: url("../img/feature-bg.jpg");
   background-position: 50% 94px;
   width: 100%;
   display: block;
@@ -261,7 +384,7 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #8d8f92;
   margin-bottom: 20px;
 }
-#feature .btn-view-works {
+#feature .btn-view-oss {
   background: #655E7A;
   color: #fff;
   padding: 10px 20px;
@@ -270,7 +393,8 @@ font header .navbar-default .navbar-nav li a:hover {
 	content Start
 --*/
 #testimonial {
-  padding: 100px 0;
+  padding-top: 0px;
+  padding-bottom: 100px;
 }
 #testimonial .block h2 {
   line-height: 27px;
@@ -282,7 +406,7 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #7B7B7B;
 }
 #testimonial .counter-box li {
-  width: 50%;
+  width: 25%;
   float: left;
   text-align: center;
   margin: 30px 0 30px;
@@ -358,7 +482,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider-work Start
 --*/
 #global-header {
-  background: url("../img/slider-bg.jpg") no-repeat;
+  background: url("../img/global-header-bg.jpg") no-repeat;
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 107px;
@@ -375,7 +499,7 @@ font header .navbar-default .navbar-nav li a:hover {
   width: 100%;
   height: 100%;
   background: linear-gradient(to left, #928dab, #1f1c2c 70%);
-  opacity: 0.8;
+  opacity: 0.77;
 }
 #global-header .block {
   color: #E3E3E4;
@@ -389,7 +513,7 @@ font header .navbar-default .navbar-nav li a:hover {
   letter-spacing: 6px;
   padding-bottom: 15px;
   margin-top: 0;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 #global-header .block p {
   font-size: 16px;
@@ -466,6 +590,25 @@ font header .navbar-default .navbar-nav li a:hover {
   -ms-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
+#portfolio-work .block .portfolio-menu ul li.hover:before {
+  content: "\f0d7";
+  position: absolute;
+  font-family: 'FontAwesome';
+  bottom: -18px;
+  font-size: 30px;
+  width: 20px;
+  left: 0px;
+  right: 0px;
+  top: 24px;
+  margin: 0 auto;
+  color: #fff;
+  text-shadow: 0 1px 0px rgba(0, 0, 0, 0.9);
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
 #portfolio-work .block .portfolio-contant ul li {
   float: left;
   width: 32.22%;
@@ -476,7 +619,18 @@ font header .navbar-default .navbar-nav li a:hover {
 #portfolio-work .block .portfolio-contant ul li:hover .overly {
   opacity: 1;
 }
+#portfolio-work .block .portfolio-contant ul li.hover .overly {
+  opacity: 1;
+}
 #portfolio-work .block .portfolio-contant ul li:hover .position-center {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0%, -50%);
+  -moz-transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+  transform: translate(0%, -50%);
+}
+#portfolio-work .block .portfolio-contant ul li.hover .position-center {
   position: absolute;
   top: 50%;
   -webkit-transform: translate(0%, -50%);
@@ -522,6 +676,7 @@ font header .navbar-default .navbar-nav li a:hover {
   position: absolute;
   top: 50%;
   left: 10%;
+  right: 10%;
   -webkit-transform: translate(0%, 50%);
   -moz-transform: translate(0%, 50%);
   -ms-transform: translate(0%, 50%);
@@ -623,7 +778,7 @@ font header .navbar-default .navbar-nav li a:hover {
   width: 100%;
   height: 100%;
   background: linear-gradient(to left, #928dab, #1f1c2c 70%);
-  opacity: 0.8;
+  opacity: 0.66;
 }
 #slider-contact .block {
   color: #E3E3E4;
