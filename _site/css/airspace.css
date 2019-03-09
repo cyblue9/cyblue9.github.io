@@ -155,9 +155,14 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-top: 20px;
 }
 #intro .block img {
-  padding-top: 45px;
-  padding-left: 130px;
-  width: 90%;
+  padding-left: 40px;
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  #intro .block img {
+    padding-left: 10px;
+    width: 100%;
+  }
 }
 #intro .section-title {
   margin-bottom: 0px;
@@ -354,7 +359,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Feature Start
 --*/
 #feature {
-  background: url("../img/feature-bg.jpg");
+  background: url("../img/feature-bg-pc.jpg");
   background-position: 50% 94px;
   width: 100%;
   display: block;
@@ -374,6 +379,30 @@ font header .navbar-default .navbar-nav li a:hover {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   padding: 100px 0;
+}
+@media only screen and (max-width: 768px) {
+  #feature {
+    background: url("../img/feature-bg-sp.jpg");
+    background-position: 50% 94px;
+    width: 100%;
+    display: block;
+    position: relative;
+    overflow: visible;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    padding: 100px 0;
+}
 }
 #feature h2 {
   font-size: 28px;
