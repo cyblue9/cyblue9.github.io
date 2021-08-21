@@ -218,6 +218,18 @@ font header .navbar-default .navbar-nav li a:hover {
 #career .career-item {
   padding-bottom: 30px;
 }
+@media only screen and (max-width: 991px) {
+  #career .career-item {
+    width: 85%;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 992px) {
+  #career .career-item {
+    width: 55%;
+    margin: 0 auto;
+  }
+}
 #career .career-item i {
   font-size: 60px;
   color: #4A4656;
@@ -235,6 +247,8 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-top: 5px;
   color: #333;
   font-weight: 380;
+  padding-left:1em;
+  text-indent:-1em;
 }
 #career .career-item h5{
   font-size: 16px;
@@ -258,6 +272,18 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #award .award-item {
   padding-bottom: 30px;
+}
+@media only screen and (max-width: 991px) {
+  #award .award-item {
+    width: 85%;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 992px) {
+  #award .award-item {
+    width: 55%;
+    margin: 0 auto;
+  }
 }
 #award .award-item i {
   font-size: 60px;
@@ -289,6 +315,18 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #media .media-item {
   padding-bottom: 30px;
+}
+@media only screen and (max-width: 991px) {
+  #media .media-item {
+    width: 85%;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 992px) {
+  #media .media-item {
+    width: 55%;
+    margin: 0 auto;
+  }
 }
 #media .media-item i {
   font-size: 60px;
