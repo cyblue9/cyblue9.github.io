@@ -3,7 +3,7 @@ layout: page
 title: About Me
 permalink: /about/
 ---
-˘
+
 <!-- Slider Start -->
 <section id="global-header">
     <div class="container">
@@ -28,7 +28,6 @@ permalink: /about/
             <div class="section-title">
                 <h1>CAREER</h1>
             </div>
-            <div class="col-md-9 col-md-offset-3">
                 {% for career in site.data.careers %}
                     <div class="career-item" align="left">
                         <div class="job">
@@ -41,11 +40,12 @@ permalink: /about/
                             <h5>{{ career.location-period }}</h5>
                         </div>
                         <div class="description" align="left">
-                            <h4>{{ career.description }}</h4>
+                            {% for desc in career.description %}
+                                <h4>{{ desc. }}</h4>
+                            {% endfor %}
                         </div>
                     </div>
                 {% endfor %}
-            </div>
         </div>
     </div>
 </section>
@@ -57,9 +57,8 @@ permalink: /about/
             <div class="section-title">
                 <h1>AWARD</h1>
             </div>
-            <div class="col-md-9 col-md-offset-3">
                 {% for award in site.data.awards %}
-                <div class="awards-item">
+                <div class="award-item">
                     <a href="{{ award.url }}">
                         <div class="title" align="left">
                             <h3>{{ award.title }}</h3>
@@ -67,7 +66,6 @@ permalink: /about/
                     </a>
                 </div>
                 {% endfor %}
-            </div>
         </div>
     </div>
 </section>
@@ -77,9 +75,8 @@ permalink: /about/
             <div class="section-title">
                 <h1>MEDIA</h1>
             </div>
-            <div class="col-md-9 col-md-offset-3">
                 {% for media in site.data.medias %}
-                <div class="media-itme">
+                <div class="media-item">
                     <a href="{{ media.url }}">
                         <div class="title" align="left">
                             <h3>{{ media.title }}</h3>
@@ -88,8 +85,8 @@ permalink: /about/
                     <div class="date-publisher" align="left">
                         <p>{{ media.date }} at {{ media.publisher }}</p>
                     </div>
+                </div>
                 {% endfor %}
-            </div>
         </div>
     </div>
 </section>
